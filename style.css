@@ -278,6 +278,7 @@
 /* complete Feature section */
 #Host-section{
     background-color: #1a0b2e;
+    height: 550px;
 }
 #Host-section .heading{
     padding-top: 100px;
@@ -313,3 +314,36 @@
 }
 /* complete-host-section */
 /* footer-section */
+#Footer-section{
+    background-image: url(assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%,100%;
+    height: 300px;
+    background-position: fixed;
+}
+#Footer-section .footer-card img{
+    float: left;
+    gap:0px;
+}
+#Footer-section .footer-card{
+    display: flex;
+    gap:40px;
+    /* justify-content: space-between; */
+}
+#sub-container{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 260px;
+    top:85px;
+}
+#sub-container *{
+    margin-bottom: 8px;
+}
+#sub-container .tech{
+    font-size: 60px;
+}
+/* complete footer */
