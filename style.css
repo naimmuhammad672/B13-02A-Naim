@@ -117,11 +117,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#Hero-header #hero-circle{
-    
-    /* background-repeat: no-repeat;
-    border: 2px solid white; */
-}
 #Hero-header #spacial-container{
     margin: 0 auto;
     /* border: 1px solid blue; */
@@ -281,3 +276,40 @@
     padding: 0px 10px;
 }
 /* complete Feature section */
+#Host-section{
+    background-color: #1a0b2e;
+}
+#Host-section .heading{
+    padding-top: 100px;
+}
+#Host-section .host-box{
+    background-color: #35195a;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    gap:20px;
+}
+#Host-section #social-card{
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-around; */
+    /* border: 1px solid red; */
+}
+#social-card .S-card{
+    border: 1px solid rgb(201, 3, 201);
+    padding: 10px;
+    border-radius: 100%;
+}
+#Host-section .host-box p{
+    margin-bottom: 30px;
+}
+#social-card .S-card img{
+    size: 100%;
+}
+#Host-section h1{
+    margin-bottom: 40px;
+}
+/* complete-host-section */
+/* footer-section */
