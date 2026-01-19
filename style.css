@@ -374,8 +374,68 @@
     #video-section{
         display: flex;
         flex-direction: column;
+    }
+    #Hero-nav #nav {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    #spacial-contant{
+    width:70%;
+    height: 300px;
+    background-image: url(assets/hero-circle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    position:absolute;
+    left: 50px;
+    top:70px;
+    }
+    #spacial-contant #newbtn .batch {
+    position: absolute;
+    left: 170px;
+    width: 25%;
+    }
+    #techwave-text{
+    /* border: 1px solid white; */
+    text-align: center;
+    position: relative;
+    top:340px;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+    #Hero-header{
+    background-image:url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     }
+    #Hero-header #spacial-container{
+    margin: 0 auto;
+    height: 600px;
+    width: 90%;
+    }
+    #Hero-about .about-text{
+    text-align: center;
+    padding-top:40px;
+    }
+    #rating .card-box{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom:40px;
+    }
+    #spacial-contant #hero-circle {
+    left: 80px;
+    top: 50px;
+    }
+
+
+
     #video-section .video-card{
         width: 100%;
     }
