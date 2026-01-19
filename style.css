@@ -52,6 +52,10 @@
     font-size: 40px;
     color:#ffff;
 }
+.heading-2{
+    margin-bottom: 10px;
+    color:#ffff;
+}
 /* common class end */
 /* Hero-nav-section */
 #Hero-nav{
@@ -111,7 +115,7 @@
 }
 #Hero-header #spacial-container{
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* position: fixed; */
     height: 600px;
     width: 81%;
@@ -176,7 +180,7 @@
     padding-top:10px;
 }
 #rating .card-box{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -193,3 +197,45 @@
     font-size: 16px;
 }
 /* about-section-complete */
+/* Hero-Grid-section */
+#Hero-Grid{
+    background-color: #492c6d;
+    height: 900px;
+}
+#Hero-Grid #Grid .heading{
+    padding-top: 120px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#Hero-Grid #Display{
+    display: grid;
+    gap:30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+    text-align: none;
+}
+#Display .div{
+    background-color: #35195a;
+    /* color:#ffff; */
+    border-radius: 20px;
+    border: none;
+    padding:30px;
+}
+#Display #grid-1{
+    grid-row: span 2;
+}
+#Display #grid-2{
+    grid-column: span 2;
+}
+#Display #grid-4{
+    grid-column: span 2;
+}
+#Display .heading-2{
+    margin-bottom: 10px;
+    color:#ffff;
+}
+#Display p{
+    color:#b9b5b5;
+}
+/* Grid-section-complete */
+/* Feature -section start */
